@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Will You Be My Valentine? 💕</title>
+    <meta name="description" content="A special Valentine's Day question just for you!" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Floating Hearts Background -->
+    <div class="hearts-bg" id="heartsBg"></div>
+
+    <!-- Main Card -->
+    <div class="valentine-card" id="card">
+        <div class="card-glow"></div>
+        <div class="emoji-top">💘</div>
+        <h1 class="title">Will You Be My Valentine?</h1>
+        <p class="subtitle">I've been waiting to ask you this...</p>
+        <div class="bear-container">
+            <div class="bear" id="bear">
+                <!-- Bear face -->
+                <div class="bear-ear bear-ear-left"></div>
+                <div class="bear-ear bear-ear-right"></div>
+                <div class="bear-face">
+                    <div class="bear-eye bear-eye-left">
+                        <div class="bear-pupil"></div>
+                    </div>
+                    <div class="bear-eye bear-eye-right">
+                        <div class="bear-pupil"></div>
+                    </div>
+                    <div class="bear-nose"></div>
+                    <div class="bear-mouth" id="bearMouth"></div>
+                    <div class="bear-blush bear-blush-left"></div>
+                    <div class="bear-blush bear-blush-right"></div>
+                </div>
+                <!-- Bear holding heart -->
+                <div class="bear-body">
+                    <div class="bear-arm bear-arm-left"></div>
+                    <div class="bear-arm bear-arm-right"></div>
+                    <div class="bear-heart">❤️</div>
+                </div>
+            </div>
+        </div>
+        <div class="buttons-area" id="buttonsArea">
+            <button class="btn btn-yes" id="btnYes" onclick="sayYes()">Yes! 💖</button>
+            <button class="btn btn-no" id="btnNo">No 💔</button>
+        </div>
+        <p class="no-msg" id="noMsg">You can't say no! 😏</p>
+    </div>
+
+    <!-- Yes Celebration Overlay -->
+    <div class="celebration" id="celebration">
+        <div class="confetti-container" id="confetti"></div>
+        <div class="celebration-card">
+            <h1 class="celebration-title">Happy Valentine's Day Appii! 💕</h1>
+            <p class="celebration-text">I knew you'd say yes!</p>
+            <p class="celebration-subtext">You just made me the happiest person ever! 💝</p>
+            <div class="celebration-hearts">💖 💗 💓 💞 💕 💘 💝</div>
+
+            <!-- Memories Section -->
+            <h2 class="memories-title">Our Memories 💕</h2>
+            <div class="memories-grid">
+                <!-- Replace src with your own photos -->
+                <div class="memory-card">
+                    <img src="" alt="Memory 1" />
+                    <p class="memory-caption">Our first moment ❤️</p>
+                </div>
+                <div class="memory-card">
+                    <img src="WhatsApp Image 2026-02-13 at 23.36.09 (1).jpeg" alt="Memory 2" />
+                    <p class="memory-caption">Together forever 💕</p>
+                </div>
+                <div class="memory-card">
+                    <img src="WhatsApp Image 2026-02-13 at 23.36.08 (2).jpeg" alt="Memory 3" />
+                    <p class="memory-caption">Best day ever 💖</p>
+                </div>
+                <div class="memory-card">
+                    <img src="WhatsApp Image 2026-02-13 at 23.36.08.jpeg" alt="Memory 4" />
+                    <p class="memory-caption">Always smiling 😊</p>
+                </div>
+                <div class="memory-card">
+                    <img src="WhatsApp Image 2026-02-13 at 23.36.09 (1).jpeg" alt="Memory 5" />
+                    <p class="memory-caption">You & Me 💗</p>
+                </div>
+                <div class="memory-card">
+                    <img src="WhatsApp Image 2026-02-13 at 23.36.09 (2).jpeg" alt="Memory 6" />
+                    <p class="memory-caption">Love you always 💘</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
